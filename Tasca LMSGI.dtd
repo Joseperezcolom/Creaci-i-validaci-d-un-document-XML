@@ -1,0 +1,85 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT root (row)+>
+<!ATTLIST root
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT row (policyID,statecode,county,eq_site_limit,hu_site_limit,
+               fl_site_limit,fr_site_limit,tiv_2011,tiv_2012,
+               eq_site_deductible,hu_site_deductible,fl_site_deductible,
+               fr_site_deductible,point_latitude,point_longitude,line,
+               construction,point_granularity)>
+<!ATTLIST row
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT policyID (#PCDATA)>
+<!ATTLIST policyID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT statecode (#PCDATA)>
+<!ATTLIST statecode
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT county (#PCDATA)>
+<!ATTLIST county
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT eq_site_limit (#PCDATA)>
+<!ATTLIST eq_site_limit
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT hu_site_limit (#PCDATA)>
+<!ATTLIST hu_site_limit
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT fl_site_limit (#PCDATA)>
+<!ATTLIST fl_site_limit
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT fr_site_limit (#PCDATA)>
+<!ATTLIST fr_site_limit
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT tiv_2011 (#PCDATA)>
+<!ATTLIST tiv_2011
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT tiv_2012 (#PCDATA)>
+<!ATTLIST tiv_2012
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT eq_site_deductible (#PCDATA)>
+<!ATTLIST eq_site_deductible
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT hu_site_deductible (#PCDATA)>
+<!ATTLIST hu_site_deductible
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT fl_site_deductible (#PCDATA)>
+<!ATTLIST fl_site_deductible
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT fr_site_deductible (#PCDATA)>
+<!ATTLIST fr_site_deductible
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT point_latitude (#PCDATA)>
+<!ATTLIST point_latitude
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT point_longitude (#PCDATA)>
+<!ATTLIST point_longitude
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT line (#PCDATA)>
+<!ATTLIST line
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT construction (#PCDATA)>
+<!ATTLIST construction
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT point_granularity (#PCDATA)>
+<!ATTLIST point_granularity
+  xmlns CDATA #FIXED ''>

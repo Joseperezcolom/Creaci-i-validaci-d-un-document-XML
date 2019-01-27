@@ -1,0 +1,32 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="row" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:int" name="policyID"/>
+              <xs:element type="xs:string" name="statecode"/>
+              <xs:element type="xs:string" name="county"/>
+              <xs:element type="xs:float" name="eq_site_limit"/>
+              <xs:element type="xs:float" name="hu_site_limit"/>
+              <xs:element type="xs:float" name="fl_site_limit"/>
+              <xs:element type="xs:float" name="fr_site_limit"/>
+              <xs:element type="xs:float" name="tiv_2011"/>
+              <xs:element type="xs:float" name="tiv_2012"/>
+              <xs:element type="xs:short" name="eq_site_deductible"/>
+              <xs:element type="xs:float" name="hu_site_deductible"/>
+              <xs:element type="xs:byte" name="fl_site_deductible"/>
+              <xs:element type="xs:byte" name="fr_site_deductible"/>
+              <xs:element type="xs:float" name="point_latitude"/>
+              <xs:element type="xs:float" name="point_longitude"/>
+              <xs:element type="xs:string" name="line"/>
+              <xs:element type="xs:string" name="construction"/>
+              <xs:element type="xs:byte" name="point_granularity"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
